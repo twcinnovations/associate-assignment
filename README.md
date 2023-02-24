@@ -1,4 +1,4 @@
-## TWC Intern Assignment 📑
+## TWC Assignment 📑
 
 Hello, 
 As we discussed on our quick chat, your next step will be to complete a task to test your knowledge of design, analytics, React and basics of a Rest api.
