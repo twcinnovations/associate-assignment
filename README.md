@@ -63,10 +63,10 @@ Your challenge is to build out these UIs and get it looking as close to the desi
 
 ## Key Features for Making your App Stand Out 💡
 
-- implementing a social sign on(SSO) with google(refer the register page UI)
+- Implementing a social sign on(SSO) with google(refer the register page UI)
 
-- Deploy your both React app and Express api in a cloud platform(Vercel, Heroku, DIgital Ocean or any platform you comfortable with)
+- Deploy both your React app and Express api in a cloud platform(Vercel, Heroku, DIgital Ocean or any platform you comfortable with)
 
-- add validation for inputs like email, phone number (you're free to add any kind of rules for your forms)
+- Add validation for inputs like email, phone number (you're free to add any kind of rules for your forms)
 
 <div align="center" style="font-size:10rem" > <b> <h1> Have fun building! 🚀 </h1> </b> </div>
