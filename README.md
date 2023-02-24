@@ -38,15 +38,7 @@ Your challenge is to build out these UIs and get it looking as close to the desi
 
 ## React app pages and their routes 🛣️
 
-/                   - welcome page
 
-/register     - register page
-
-/login         - Login page
-
-contacts/new - add new contact page
-
-/contacts  - show all contacts page
 
 | Routes        | Description            |
 |:------------- |:---------------------- |
