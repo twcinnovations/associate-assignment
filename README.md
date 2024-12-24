@@ -41,7 +41,7 @@ This assignment will test your understanding of the following key areas:
 3. **Database Management** 🗄️  
    - Use either **PrismaORM**, **TypeORM**, or direct **MySQL/MongoDB queries** (no ORM) to interact with the database.  
    - Seed the database with the following data when the application starts for the first time (if not already present):  
-     - **Admin User:**  
+     - **Demo User:**  
        - Email: `admin@admin.com`  
        - Password: `admin`  
      - **Dummy Contacts (3 entries):** Include at least three contacts as sample data.  
@@ -79,23 +79,33 @@ This assignment will test your understanding of the following key areas:
 ## Project Requirements ✅
 
 ### **Frontend Routes**
-
 1. `/login` - **Login Page**  
-   - Allows users to log in using **JWT (cookie-based)** authentication.  
+   - Allows users to log in using their email and password.  
    - Displays error messages for incorrect credentials.
+   - Redirect users to the this page if they attempt to access other routes without being authenticated.
 
-2. `/` - **Welcome Page**  
-   - Displays a personalized welcome message after login.  
+2. `/register` - **Register Page**  
+   - Allows users to register with their email, password, and optional Google authentication (SSO).  
+   - Validates inputs using **Zod** and **React Hook Form**.  
+   - Displays error messages for invalid inputs or failed registrations.  
+
+3. `/` - **Welcome Page**  
+   - Displays a welcome message after login.  
    - Includes a button to navigate to the “Add Contact” page.  
 
-3. `/contacts/new` - **Add Contact Page**  
+4. `/contacts/new` - **Add Contact Page**  
    - Displays a form to add a new contact.  
    - Validates inputs (e.g., name, email) using **Zod** and **React Hook Form**.  
 
-4. `/contacts` - **View Contacts Page**  
+5. `/contacts` - **View Contacts Page**  
    - Displays a table of all contacts.  
    - Includes options to **edit** or **delete** each contact.  
 
+6. `/contacts/edit/:id` - **Edit Contact Page**  (Same UI as Add Contact Page)
+   - Displays a form to update the details of an existing contact.  
+   - Pre-fills the form with the contact's current details.  
+   - Validates updated inputs using **Zod** and **React Hook Form**.  
+   - Displays error messages for invalid updates.
 ---
 
 ### **Backend Routes**
